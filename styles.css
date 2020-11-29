@@ -1,0 +1,51 @@
+.navbar-default {
+  background-color: #b19cd9;
+}
+
+.chicken-nav {
+  padding-top: 7px;
+}
+
+.sushi-nav {
+  padding-bottom: 7px;
+}
+
+.card {
+  background-color: red;
+  margin: 20px 20px;
+  background-color: blue;
+  position: relative;
+}
+
+.card-content {
+  text-align: center;
+  padding: 10px 50px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-style: bolder;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+}
+
+@media (min-width: 970px) {
+  .col-md-4 {
+    width: 33.3%;
+    float: left;
+}
+
+@media (min-width: 750px) and (max-width: 969px){
+  .col-sm-6 {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 749px) {
+  .col-xs-12 {
+    width: 100%;
+    float: left;
+}
